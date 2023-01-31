@@ -1,9 +1,11 @@
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div>
-      Hello World!
+    <div className="app-container">
+      <div className="center-text">
+        <h1>Hello World!</h1>
+      </div>
     </div>
   );
 }
